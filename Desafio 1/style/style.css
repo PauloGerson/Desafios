@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+nav{
+    background: linear-gradient(88.27deg, #574AE8, #3EA1DB);
+    padding: 1rem 0rem;
+}
+.letra{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+
+}
+.letra1{
+    display: flex;
+    justify-content: center;
+}
+nav h1{
+    color: white;
+}
+.letra1 span{
+    width: 1.3rem;
+    background-color: #3EA1DB;
+
+}
+
+input{
+    border: none;
+    background: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.3rem;
+    width: 25rem;
+    outline: none;
+    border-radius:2px;
+}
+
+input::placeholder{
+    color: white;
+    padding: 0 0 0 5px;
+}
+.teste{
+    margin: 2rem;
+}
+
+.container span{
+    margin: 1rem 32rem 0 0;
+
+}
+.container{
+  
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cont{
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    margin: 0 2rem;
+    width: 78vw;
+    
+}
+.teste1{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.teste1 p{
+    font-weight: 300;
+}
